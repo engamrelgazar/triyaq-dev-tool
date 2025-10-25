@@ -1,10 +1,8 @@
 <?php
-
-namespace Botble\DevTool\Commands;
-
-use Botble\DevTool\Commands\Abstracts\BaseMakeCommand;
-use Botble\DevTool\Helper;
-use Botble\PluginManagement\Commands\Concern\HasPluginNameValidation;
+namespace Triyaq\DevTool\Commands;
+use Triyaq\DevTool\Commands\Abstracts\BaseMakeCommand;
+use Triyaq\DevTool\Helper;
+use Triyaq\PluginManagement\Commands\Concern\HasPluginNameValidation;
 use Illuminate\Contracts\Console\PromptsForMissingInput;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\File;
@@ -277,7 +275,7 @@ class PluginCreateCommand extends BaseMakeCommand implements PromptsForMissingIn
             ],
             'namespace' => [
                 'label' => 'Namespace:',
-                'default' => 'Botble/{PluginName}',
+                'default' => 'Triyaq/{PluginName}',
             ],
             'provider' => [
                 'label' => 'ServiceProvider:',
@@ -391,7 +389,7 @@ class PluginCreateCommand extends BaseMakeCommand implements PromptsForMissingIn
         }
 
         return PHP_EOL . str_repeat(' ', 12) . sprintf("if (defined('LANGUAGE_ADVANCED_MODULE_SCREEN_NAME')) {
-                \Botble\LanguageAdvanced\Supports\LanguageAdvancedManager::registerModule(%s::class, [
+                \Triyaq\LanguageAdvanced\Supports\LanguageAdvancedManager::registerModule(%s::class, [
                     'name',
                 ]);
             }", Str::studly($this->argument('name')));
@@ -424,7 +422,7 @@ class PluginCreateCommand extends BaseMakeCommand implements PromptsForMissingIn
             return null;
         }
 
-        $imports = ['Botble\Base\Facades\DashboardMenu'];
+        $imports = ['Triyaq\Base\Facades\DashboardMenu'];
 
         $imports[] = sprintf('%s\Models\%s', str_replace('\\\\', '\\', $this->argument('namespace')), Str::studly($this->argument('name')));
 
