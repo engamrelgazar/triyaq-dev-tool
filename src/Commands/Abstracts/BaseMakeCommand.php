@@ -1,7 +1,7 @@
 <?php
-namespace Triyaq\DevTool\Commands\Abstracts;
-use Triyaq\Base\Facades\BaseHelper;
-use Triyaq\DevTool\Helper;
+namespace Tiryaq\DevTool\Commands\Abstracts;
+use Tiryaq\Base\Facades\BaseHelper;
+use Tiryaq\DevTool\Helper;
 use Carbon\Carbon;
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;

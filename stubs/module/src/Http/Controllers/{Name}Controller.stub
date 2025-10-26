@@ -1,10 +1,10 @@
 <?php
 
 namespace {Module}\Http\Controllers;
-use Triyaq\Base\Http\Actions\DeleteResourceAction;
+use Tiryaq\Base\Http\Actions\DeleteResourceAction;
 use {Module}\Http\Requests\{Name}Request;
 use {Module}\Models\{Name};
-use Triyaq\Base\Http\Controllers\BaseController;
+use Tiryaq\Base\Http\Controllers\BaseController;
 use {Module}\Tables\{Name}Table;
 use {Module}\Forms\{Name}Form;
 

@@ -1,6 +1,6 @@
-# {Theme} Theme for Triyaq CMS
+# {Theme} Theme for Tiryaq CMS
 
-Welcome to your new Triyaq CMS theme! This guide will help you get started with theme development.
+Welcome to your new Tiryaq CMS theme! This guide will help you get started with theme development.
 
 ## 🚀 Quick Start
 
@@ -358,7 +358,7 @@ Ensure `webpack.mix.js` is configured correctly and run `npm run prod`.
 
 ## 📖 Resources
 
-- [Theme Development Guide](https://docs.triyaq.com/cms/theme-development/theme.html)
+- [Theme Development Guide](https://docs.tiryaq.co/cms/theme-development/theme.html)
 - [Blade Templates](https://laravel.com/docs/blade)
 - [Bootstrap Documentation](https://getbootstrap.com/docs/)
 - [Tabler UI Components](https://docs.tabler.io/ui)
@@ -366,9 +366,9 @@ Ensure `webpack.mix.js` is configured correctly and run `npm run prod`.
 
 ## 🤝 Support
 
-- Documentation: https://docs.triyaq.co
-- Community: https://github.com/triyaq/triyaq/discussions
-- Issues: https://github.com/triyaq/triyaq/issues
+- Documentation: https://docs.tiryaq.co
+- Community: https://github.com/tiryaq/tiryaq/discussions
+- Issues: https://github.com/tiryaq/tiryaq/issues
 
 ---
 

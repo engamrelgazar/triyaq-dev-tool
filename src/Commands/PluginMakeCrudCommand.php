@@ -1,10 +1,10 @@
 <?php
-namespace Triyaq\DevTool\Commands;
-use Triyaq\Base\Facades\BaseHelper;
-use Triyaq\DevTool\Commands\Abstracts\BaseMakeCommand;
-use Triyaq\DevTool\Commands\Concerns\HasSubModule;
-use Triyaq\DevTool\Helper;
-use Triyaq\PluginManagement\Commands\Concern\HasPluginNameValidation;
+namespace Tiryaq\DevTool\Commands;
+use Tiryaq\Base\Facades\BaseHelper;
+use Tiryaq\DevTool\Commands\Abstracts\BaseMakeCommand;
+use Tiryaq\DevTool\Commands\Concerns\HasSubModule;
+use Tiryaq\DevTool\Helper;
+use Tiryaq\PluginManagement\Commands\Concern\HasPluginNameValidation;
 use Illuminate\Contracts\Console\PromptsForMissingInput;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;

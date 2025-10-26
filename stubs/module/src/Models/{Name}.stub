@@ -1,9 +1,9 @@
 <?php
 
 namespace {Module}\Models;
-use Triyaq\Base\Casts\SafeContent;
-use Triyaq\Base\Enums\BaseStatusEnum;
-use Triyaq\Base\Models\BaseModel;
+use Tiryaq\Base\Casts\SafeContent;
+use Tiryaq\Base\Enums\BaseStatusEnum;
+use Tiryaq\Base\Models\BaseModel;
 
 class {Name} extends BaseModel
 {

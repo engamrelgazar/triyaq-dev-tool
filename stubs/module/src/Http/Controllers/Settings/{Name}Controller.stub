@@ -1,10 +1,10 @@
 <?php
 
 namespace {Module}\Http\Controllers\Settings;
-use Triyaq\Base\Forms\FormBuilder;
+use Tiryaq\Base\Forms\FormBuilder;
 use {Module}\Forms\Settings\{Name}Form;
 use {Module}\Http\Requests\Settings\{Name}Request;
-use Triyaq\Setting\Http\Controllers\SettingController;
+use Tiryaq\Setting\Http\Controllers\SettingController;
 
 class {Name}Controller extends SettingController
 {

@@ -1,5 +1,5 @@
 <?php
-use Triyaq\Theme\Theme;
+use Tiryaq\Theme\Theme;
 
 return [
 

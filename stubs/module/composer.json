@@ -1,10 +1,10 @@
 {
-    "name": "triyaq/{-name}",
+    "name": "tiryaq/{-name}",
     "description": "{Name} package",
     "type": "package",
     "autoload": {
         "psr-4": {
-            "Triyaq\\{Name}\\": "src"
+            "Tiryaq\\{Name}\\": "src"
         }
     },
     "require": {
@@ -12,7 +12,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Triyaq\\{Name}\\Providers\\{Name}ServiceProvider"
+                "Tiryaq\\{Name}\\Providers\\{Name}ServiceProvider"
             ]
         }
     }

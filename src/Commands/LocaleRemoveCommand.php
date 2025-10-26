@@ -1,6 +1,6 @@
 <?php
-namespace Triyaq\DevTool\Commands;
-use Triyaq\DevTool\Helper;
+namespace Tiryaq\DevTool\Commands;
+use Tiryaq\DevTool\Helper;
 use Illuminate\Console\Command;
 use Illuminate\Console\ConfirmableTrait;
 use Illuminate\Contracts\Console\PromptsForMissingInput;

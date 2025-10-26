@@ -1,5 +1,5 @@
 <?php
-use Triyaq\Base\Facades\AdminHelper;
+use Tiryaq\Base\Facades\AdminHelper;
 use {Module}\Http\Controllers\{Name}Controller;
 use Illuminate\Support\Facades\Route;
 

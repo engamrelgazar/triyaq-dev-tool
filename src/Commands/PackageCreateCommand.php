@@ -1,7 +1,7 @@
 <?php
-namespace Triyaq\DevTool\Commands;
-use Triyaq\DevTool\Commands\Abstracts\BaseMakeCommand;
-use Triyaq\DevTool\Helper;
+namespace Tiryaq\DevTool\Commands;
+use Tiryaq\DevTool\Commands\Abstracts\BaseMakeCommand;
+use Tiryaq\DevTool\Helper;
 use Illuminate\Contracts\Console\PromptsForMissingInput;
 use Illuminate\Support\Str;
 use Symfony\Component\Console\Attribute\AsCommand;
@@ -35,7 +35,7 @@ class PackageCreateCommand extends BaseMakeCommand implements PromptsForMissingI
             sprintf('<info>The package</info> <comment>%s</comment> <info>was created in</info> <comment>%s</comment><info>, customize it!</info>', $package, $location)
         );
         $this->components->info(
-            sprintf('<info>Add</info> <comment>"triyaq/%s": "*@dev"</comment> to composer.json then run <comment>composer update</comment> to install this package!', $package)
+            sprintf('<info>Add</info> <comment>"tiryaq/%s": "*@dev"</comment> to composer.json then run <comment>composer update</comment> to install this package!', $package)
         );
 
         $this->call('cache:clear');
@@ -64,7 +64,7 @@ class PackageCreateCommand extends BaseMakeCommand implements PromptsForMissingI
                 ->replace('/', '\\')
                 ->afterLast('\\')
                 ->studly()
-                ->prepend('Triyaq\\'),
+                ->prepend('Tiryaq\\'),
         ];
     }
 

@@ -1,7 +1,7 @@
 <?php
 
 namespace {Module}\PanelSections;
-use Triyaq\Base\PanelSections\PanelSection;
+use Tiryaq\Base\PanelSections\PanelSection;
 
 class {Name}PanelSection extends PanelSection
 {

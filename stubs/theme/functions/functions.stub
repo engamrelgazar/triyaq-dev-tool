@@ -1,6 +1,6 @@
 <?php
-use Triyaq\Media\Facades\RvMedia;
-use Triyaq\Theme\Supports\ThemeSupport;
+use Tiryaq\Media\Facades\RvMedia;
+use Tiryaq\Theme\Supports\ThemeSupport;
 
 register_page_template([
     'default' => __('Default'),

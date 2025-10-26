@@ -1,5 +1,5 @@
 <?php
-use Triyaq\Widget\AbstractWidget;
+use Tiryaq\Widget\AbstractWidget;
 use Illuminate\Support\Collection;
 
 class {Widget}Widget extends AbstractWidget

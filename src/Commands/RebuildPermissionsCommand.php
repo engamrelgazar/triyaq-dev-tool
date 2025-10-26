@@ -1,6 +1,6 @@
 <?php
-namespace Triyaq\DevTool\Commands;
-use Triyaq\ACL\Models\User;
+namespace Tiryaq\DevTool\Commands;
+use Tiryaq\ACL\Models\User;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
 use Symfony\Component\Console\Attribute\AsCommand;

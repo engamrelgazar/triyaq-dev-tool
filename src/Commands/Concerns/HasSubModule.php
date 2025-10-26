@@ -1,6 +1,6 @@
 <?php
-namespace Triyaq\DevTool\Commands\Concerns;
-use Triyaq\DevTool\Helper;
+namespace Tiryaq\DevTool\Commands\Concerns;
+use Tiryaq\DevTool\Helper;
 
 use function Laravel\Prompts\info;
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace Triyaq\DevTool\Commands\Make;
+namespace Tiryaq\DevTool\Commands\Make;
 
-use Triyaq\DevTool\Commands\Abstracts\BaseMakeCommand;
-use Triyaq\DevTool\Commands\Concerns\HasModuleSelector;
-use Triyaq\DevTool\Helper;
+use Tiryaq\DevTool\Commands\Abstracts\BaseMakeCommand;
+use Tiryaq\DevTool\Commands\Concerns\HasModuleSelector;
+use Tiryaq\DevTool\Helper;
 use Illuminate\Contracts\Console\PromptsForMissingInput;
 use Illuminate\Support\Str;
 use Symfony\Component\Console\Attribute\AsCommand;

@@ -3,18 +3,18 @@
 namespace {Module}\Tables;
 
 use {Module}\Models\{Name};
-use Triyaq\Table\Abstracts\TableAbstract;
-use Triyaq\Table\Actions\DeleteAction;
-use Triyaq\Table\Actions\EditAction;
-use Triyaq\Table\BulkActions\DeleteBulkAction;
-use Triyaq\Table\BulkChanges\CreatedAtBulkChange;
-use Triyaq\Table\BulkChanges\NameBulkChange;
-use Triyaq\Table\BulkChanges\StatusBulkChange;
-use Triyaq\Table\Columns\CreatedAtColumn;
-use Triyaq\Table\Columns\IdColumn;
-use Triyaq\Table\Columns\NameColumn;
-use Triyaq\Table\Columns\StatusColumn;
-use Triyaq\Table\HeaderActions\CreateHeaderAction;
+use Tiryaq\Table\Abstracts\TableAbstract;
+use Tiryaq\Table\Actions\DeleteAction;
+use Tiryaq\Table\Actions\EditAction;
+use Tiryaq\Table\BulkActions\DeleteBulkAction;
+use Tiryaq\Table\BulkChanges\CreatedAtBulkChange;
+use Tiryaq\Table\BulkChanges\NameBulkChange;
+use Tiryaq\Table\BulkChanges\StatusBulkChange;
+use Tiryaq\Table\Columns\CreatedAtColumn;
+use Tiryaq\Table\Columns\IdColumn;
+use Tiryaq\Table\Columns\NameColumn;
+use Tiryaq\Table\Columns\StatusColumn;
+use Tiryaq\Table\HeaderActions\CreateHeaderAction;
 use Illuminate\Database\Eloquent\Builder;
 
 class {Name}Table extends TableAbstract

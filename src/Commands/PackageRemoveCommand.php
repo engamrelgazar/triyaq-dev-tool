@@ -1,8 +1,8 @@
 <?php
-namespace Triyaq\DevTool\Commands;
-use Triyaq\Base\Facades\BaseHelper;
-use Triyaq\Base\Supports\Helper;
-use Triyaq\DevTool\Helper as HelperDevTool;
+namespace Tiryaq\DevTool\Commands;
+use Tiryaq\Base\Facades\BaseHelper;
+use Tiryaq\Base\Supports\Helper;
+use Tiryaq\DevTool\Helper as HelperDevTool;
 use Illuminate\Console\Command;
 use Illuminate\Contracts\Console\PromptsForMissingInput;
 use Illuminate\Support\Facades\DB;
@@ -53,7 +53,7 @@ class PackageRemoveCommand extends Command implements PromptsForMissingInput
 
         $this->components->info('Removed package files successfully!');
 
-        $this->components->info(sprintf('Remove <comment>"triyaq/%s": "*@dev"</comment> to composer.json then run <comment>composer update</comment> to remove this package!', $package));
+        $this->components->info(sprintf('Remove <comment>"tiryaq/%s": "*@dev"</comment> to composer.json then run <comment>composer update</comment> to remove this package!', $package));
 
         return true;
     }

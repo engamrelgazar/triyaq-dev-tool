@@ -3,7 +3,7 @@
 namespace {Module}\Forms\Settings;
 
 use {Module}\Http\Requests\Settings\{Name}Request;
-use Triyaq\Setting\Forms\SettingForm;
+use Tiryaq\Setting\Forms\SettingForm;
 
 class {Name}Form extends SettingForm
 {

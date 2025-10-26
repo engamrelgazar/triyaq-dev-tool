@@ -1,6 +1,6 @@
 <?php
-use Triyaq\Shortcode\View\View;
-use Triyaq\Theme\Theme;
+use Tiryaq\Shortcode\View\View;
+use Tiryaq\Theme\Theme;
 
 return [
 

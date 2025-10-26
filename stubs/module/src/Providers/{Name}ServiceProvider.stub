@@ -1,11 +1,11 @@
 <?php
 
 namespace {Module}\Providers;
-use Triyaq\Base\Facades\DashboardMenu;
-use Triyaq\Base\Supports\ServiceProvider;
-use Triyaq\Base\Traits\LoadAndPublishDataTrait;
+use Tiryaq\Base\Facades\DashboardMenu;
+use Tiryaq\Base\Supports\ServiceProvider;
+use Tiryaq\Base\Traits\LoadAndPublishDataTrait;
 use {Module}\Models\{Name};
-use Triyaq\LanguageAdvanced\Supports\LanguageAdvancedManager;
+use Tiryaq\LanguageAdvanced\Supports\LanguageAdvancedManager;
 
 class {Name}ServiceProvider extends ServiceProvider
 {

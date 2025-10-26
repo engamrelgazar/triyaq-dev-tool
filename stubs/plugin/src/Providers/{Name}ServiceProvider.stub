@@ -1,8 +1,8 @@
 <?php
 
 namespace {Module}\Providers;
-use Triyaq\Base\Supports\ServiceProvider;
-use Triyaq\Base\Traits\LoadAndPublishDataTrait;
+use Tiryaq\Base\Supports\ServiceProvider;
+use Tiryaq\Base\Traits\LoadAndPublishDataTrait;
 {PluginServiceProviderImports}
 class {Name}ServiceProvider extends ServiceProvider
 {

@@ -1,7 +1,7 @@
 <?php
 
 namespace {Module}\Http\Requests\Settings;
-use Triyaq\Support\Http\Requests\Request;
+use Tiryaq\Support\Http\Requests\Request;
 
 class {Name}Request extends Request
 {

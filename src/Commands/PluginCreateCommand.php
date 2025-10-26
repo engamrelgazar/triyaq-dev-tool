@@ -1,8 +1,8 @@
 <?php
-namespace Triyaq\DevTool\Commands;
-use Triyaq\DevTool\Commands\Abstracts\BaseMakeCommand;
-use Triyaq\DevTool\Helper;
-use Triyaq\PluginManagement\Commands\Concern\HasPluginNameValidation;
+namespace Tiryaq\DevTool\Commands;
+use Tiryaq\DevTool\Commands\Abstracts\BaseMakeCommand;
+use Tiryaq\DevTool\Helper;
+use Tiryaq\PluginManagement\Commands\Concern\HasPluginNameValidation;
 use Illuminate\Contracts\Console\PromptsForMissingInput;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\File;
@@ -261,7 +261,7 @@ class PluginCreateCommand extends BaseMakeCommand implements PromptsForMissingIn
         return [
             'id' => [
                 'label' => 'Please enter the plugin ID',
-                'placeholder' => 'E.g.: triyaq/example-plugin',
+                'placeholder' => 'E.g.: tiryaq/example-plugin',
                 'required' => true,
             ],
             'name' => [
@@ -275,7 +275,7 @@ class PluginCreateCommand extends BaseMakeCommand implements PromptsForMissingIn
             ],
             'namespace' => [
                 'label' => 'Namespace:',
-                'default' => 'Triyaq/{PluginName}',
+                'default' => 'Tiryaq/{PluginName}',
             ],
             'provider' => [
                 'label' => 'ServiceProvider:',
@@ -389,7 +389,7 @@ class PluginCreateCommand extends BaseMakeCommand implements PromptsForMissingIn
         }
 
         return PHP_EOL . str_repeat(' ', 12) . sprintf("if (defined('LANGUAGE_ADVANCED_MODULE_SCREEN_NAME')) {
-                \Triyaq\LanguageAdvanced\Supports\LanguageAdvancedManager::registerModule(%s::class, [
+                \Tiryaq\LanguageAdvanced\Supports\LanguageAdvancedManager::registerModule(%s::class, [
                     'name',
                 ]);
             }", Str::studly($this->argument('name')));
@@ -422,7 +422,7 @@ class PluginCreateCommand extends BaseMakeCommand implements PromptsForMissingIn
             return null;
         }
 
-        $imports = ['Triyaq\Base\Facades\DashboardMenu'];
+        $imports = ['Tiryaq\Base\Facades\DashboardMenu'];
 
         $imports[] = sprintf('%s\Models\%s', str_replace('\\\\', '\\', $this->argument('namespace')), Str::studly($this->argument('name')));
 

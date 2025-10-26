@@ -1,5 +1,5 @@
 <?php
-use Triyaq\Theme\Facades\Theme;
+use Tiryaq\Theme\Facades\Theme;
 use Illuminate\Support\Facades\Route;
 
 // Custom routes
