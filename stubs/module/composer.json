@@ -1,5 +1,5 @@
 {
-    "name": "botble/{-name}",
+    "name": "triyaq/{-name}",
     "description": "{Name} package",
     "type": "package",
     "autoload": {

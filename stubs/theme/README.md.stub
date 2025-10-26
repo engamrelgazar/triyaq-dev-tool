@@ -358,7 +358,7 @@ Ensure `webpack.mix.js` is configured correctly and run `npm run prod`.
 
 ## 📖 Resources
 
-- [Theme Development Guide](https://docs.botble.com/cms/theme-development/theme.html)
+- [Theme Development Guide](https://docs.triyaq.com/cms/theme-development/theme.html)
 - [Blade Templates](https://laravel.com/docs/blade)
 - [Bootstrap Documentation](https://getbootstrap.com/docs/)
 - [Tabler UI Components](https://docs.tabler.io/ui)
@@ -366,9 +366,9 @@ Ensure `webpack.mix.js` is configured correctly and run `npm run prod`.
 
 ## 🤝 Support
 
-- Documentation: https://docs.botble.com
-- Community: https://github.com/botble/botble/discussions
-- Issues: https://github.com/botble/botble/issues
+- Documentation: https://docs.triyaq.co
+- Community: https://github.com/triyaq/triyaq/discussions
+- Issues: https://github.com/triyaq/triyaq/issues
 
 ---
 

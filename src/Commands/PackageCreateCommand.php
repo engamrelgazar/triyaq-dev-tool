@@ -35,7 +35,7 @@ class PackageCreateCommand extends BaseMakeCommand implements PromptsForMissingI
             sprintf('<info>The package</info> <comment>%s</comment> <info>was created in</info> <comment>%s</comment><info>, customize it!</info>', $package, $location)
         );
         $this->components->info(
-            sprintf('<info>Add</info> <comment>"botble/%s": "*@dev"</comment> to composer.json then run <comment>composer update</comment> to install this package!', $package)
+            sprintf('<info>Add</info> <comment>"triyaq/%s": "*@dev"</comment> to composer.json then run <comment>composer update</comment> to install this package!', $package)
         );
 
         $this->call('cache:clear');
