@@ -1,5 +1,7 @@
 <?php
+
 namespace Triyaq\DevTool\Commands\Make;
+
 use Triyaq\DevTool\Commands\Abstracts\BaseMakeCommand;
 use Triyaq\DevTool\Commands\Concerns\HasModuleSelector;
 use Triyaq\DevTool\Helper;

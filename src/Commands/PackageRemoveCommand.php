@@ -53,7 +53,7 @@ class PackageRemoveCommand extends Command implements PromptsForMissingInput
 
         $this->components->info('Removed package files successfully!');
 
-        $this->components->info(sprintf('Remove <comment>"botble/%s": "*@dev"</comment> to composer.json then run <comment>composer update</comment> to remove this package!', $package));
+        $this->components->info(sprintf('Remove <comment>"triyaq/%s": "*@dev"</comment> to composer.json then run <comment>composer update</comment> to remove this package!', $package));
 
         return true;
     }

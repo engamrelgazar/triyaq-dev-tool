@@ -261,7 +261,7 @@ class PluginCreateCommand extends BaseMakeCommand implements PromptsForMissingIn
         return [
             'id' => [
                 'label' => 'Please enter the plugin ID',
-                'placeholder' => 'E.g.: botble/example-plugin',
+                'placeholder' => 'E.g.: triyaq/example-plugin',
                 'required' => true,
             ],
             'name' => [
